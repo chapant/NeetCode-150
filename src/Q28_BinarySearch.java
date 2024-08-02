@@ -1,4 +1,4 @@
-public class Q27_BinarySearch {
+public class Q28_BinarySearch {
     public int search(int[] nums, int target) {
         int i = 0, j = nums.length - 1;
 
@@ -15,7 +15,7 @@ public class Q27_BinarySearch {
     }
 
     public static void main(String[] args) {
-        Q27_BinarySearch obj = new Q27_BinarySearch();
+        Q28_BinarySearch obj = new Q28_BinarySearch();
         int[] nums = {1, 3, 5, 7, 9, 11, 13, 15};
 
         System.out.println(obj.search(nums, 11));
